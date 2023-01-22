@@ -18,12 +18,13 @@
     function fillAndSubmitForm() {
       var option = document.getElementsByClassName('AB7Lab Id5V1')[14];
       option.click();
-      var submit = document.getElementsByClassName('NPEfkd RveJvd snByac')[1];
+      
+      var submit = document.getElementsByClassName('NPEfkd RveJvd snByac')[1]; // first option is to clear form
       submit.click();
     }
 
     function goBackToForm() {
-      window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSdNZRM14Z3dYG7oZCr8XbHzypZlPg1j8bJXT8yFHso_xVFWfA/viewform';
+      window.location.href = 'URL HERE';
     }
   });
 })();
